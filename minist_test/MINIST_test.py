@@ -25,7 +25,7 @@ model = keras.Sequential([
     layers.Dense(256, activation='relu'),
     layers.Dense(10)])
 
-optimizer = optimizers.SGD(learning_rate=0.001)
+optimizer = optimizer_zers.SGD(learning_rate=0.001)
 
 def train_epoch(epoch):
     # step4. loop
