@@ -44,7 +44,7 @@ def gradient_descent_runner(points, starting_b, starting_w, learning_rate, num_i
 
 def run():
 
-    points = np.genfromtex("data.csv", delimiter=",")
+    points = np.genfromtxt("data.csv", delimiter=",")
     learning_rate = 0.0001
     initial_b = 0
     initial_w = 0
@@ -58,6 +58,7 @@ def run():
     print("Running ...")
 
     [b, w] = gradient_descent_runner(points, initial_b, initial_w, learning_rate, num_iterations)
+
     print("After {0} iterations, b = {1}, w = {2}, error = {3}"
           .format(num_iterations, b, w, compute_error_for_line_given_points(b, w, points))
           )
