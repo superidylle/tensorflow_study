@@ -1,0 +1,2 @@
+model_checkpoint_path: "keras_train.ckpt"
+all_model_checkpoint_paths: "keras_train.ckpt"

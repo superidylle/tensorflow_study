@@ -1,0 +1,64 @@
+ší.
+<
+fc1
+fc2
+fc3
+fc4
+fc5
+	optimizer
+
+w
+
+kernel
+
+w
+
+kernel
+
+	w
+
+	kernel
+
+
+w
+
+
+kernel
+
+w
+
+kernel
+†
+iter
+	decay
+learning_rate
+momentummomentummomentum	momentum
+momentummomentum
+75
+VARIABLE_VALUEw fc1/w/.ATTRIBUTES/VARIABLE_VALUE
+75
+VARIABLE_VALUEw fc2/w/.ATTRIBUTES/VARIABLE_VALUE
+75
+VARIABLE_VALUEw fc3/w/.ATTRIBUTES/VARIABLE_VALUE
+75
+VARIABLE_VALUEw fc4/w/.ATTRIBUTES/VARIABLE_VALUE
+75
+VARIABLE_VALUEw fc5/w/.ATTRIBUTES/VARIABLE_VALUE
+GE
+VARIABLE_VALUESGD/iter)optimizer/iter/.ATTRIBUTES/VARIABLE_VALUE
+IG
+VARIABLE_VALUE	SGD/decay*optimizer/decay/.ATTRIBUTES/VARIABLE_VALUE
+YW
+VARIABLE_VALUESGD/learning_rate2optimizer/learning_rate/.ATTRIBUTES/VARIABLE_VALUE
+OM
+VARIABLE_VALUESGD/momentum-optimizer/momentum/.ATTRIBUTES/VARIABLE_VALUE
+ge
+VARIABLE_VALUESGD/w/momentumCfc1/w/.OPTIMIZER_SLOT/optimizer/momentum/.ATTRIBUTES/VARIABLE_VALUE
+ge
+VARIABLE_VALUESGD/w/momentumCfc2/w/.OPTIMIZER_SLOT/optimizer/momentum/.ATTRIBUTES/VARIABLE_VALUE
+ge
+VARIABLE_VALUESGD/w/momentumCfc3/w/.OPTIMIZER_SLOT/optimizer/momentum/.ATTRIBUTES/VARIABLE_VALUE
+ge
+VARIABLE_VALUESGD/w/momentumCfc4/w/.OPTIMIZER_SLOT/optimizer/momentum/.ATTRIBUTES/VARIABLE_VALUE
+ge
+VARIABLE_VALUESGD/w/momentumCfc5/w/.OPTIMIZER_SLOT/optimizer/momentum/.ATTRIBUTES/VARIABLE_VALUE
